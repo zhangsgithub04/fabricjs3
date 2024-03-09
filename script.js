@@ -25,6 +25,22 @@ fabric.BitmapText.fromURL('https://www.google.com/images/branding/googlelogo/2x/
 }, {
   text: 'Example text'
 });
-   
+
+
+      // Use the custom class
+  const myCustomRect = new CustomRect({
+    left: 100,
+    top: 100,
+    width: 50,
+    height: 50,
+    fill: 'red',
+    customProperty: 'My custom value'
+  });
+
+  // Add the custom rectangle to the canvas
+
+  canvas.add(myCustomRect);
+
+    
   });
    
