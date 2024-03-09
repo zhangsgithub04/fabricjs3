@@ -46,7 +46,7 @@ fabric.BitmapText = fabric.util.createClass(fabric.Image, {
   }
 });
 
-var canvas = new fabric.Canvas('canvas');
+var canvas = new fabric.Canvas('myCanvas');
 
 fabric.BitmapText.fromURL('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png', function (text) {
   canvas.add(text);
