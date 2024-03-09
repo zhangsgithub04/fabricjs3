@@ -26,16 +26,4 @@
     }
   });
 
-  // Use the custom class
-  const myCustomRect = new CustomRect({
-    left: 100,
-    top: 100,
-    width: 50,
-    height: 50,
-    fill: 'red',
-    customProperty: 'My custom value'
-  });
 
-  // Add the custom rectangle to the canvas
-  const canvas = new fabric.Canvas('c');
-  canvas.add(myCustomRect);
