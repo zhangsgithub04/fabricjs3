@@ -3,7 +3,8 @@
   const CustomRect = fabric.util.createClass(fabric.Rect, {
     // Specify the type for serialization
     type: 'customRect',
-
+    age: '50',
+    
     // Constructor
     initialize: function(options) {
       // Call the parent class's constructor
